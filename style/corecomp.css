@@ -94,22 +94,6 @@ body {
     .headingcc {
         padding-left: 47%;
     }
-    /* .headingcc {
-        font-size: 10vw;
-    }
-    .boxcc {
-        flex-direction: column;
-    }
-    .wrappercc {
-        width: 80vw;
-    }
-    .elementcc {
-        margin: auto;
-        height: 40vw;
-        width: 40vw;
-        border-radius: 80vw;
-        font-size: 7vw;
-    }*/
 }
 
 @media screen and (min-width: 500px) {

@@ -1,103 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-/* *{
-  box-sizing: border-box;
-}
-.form_row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-[class*="cols-"] {
-  float: left;
-  padding: 15px;
-}
-
-html {
-  font-family: "Lucida Sans", sans-serif;
-} */
-
 .form_header {
     color: #ffffff;
     padding: 15px;
     background-color: #116466;
 }
 
-
-/*
-.form_footer {
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
-  padding-bottom: 40px;
-}
-[class*="cols-"] {
-  width: 100%;
-}
-
-.form_row{
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-}
-.main_data_form{
-  width: 50%;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.form_input{
-  width: 100%;
-  max-width: 200px;
-}
-.messg_area{
-  height: 80%;
-  min-height: 75px;
-}
- input[type=text]:hover{
-   background-color: lightblue;
-}
-textarea:hover{
-  background-color: lightblue;
-}
-input[type=text]:focus{
-  border-color: blue;
-}
-input[type=submit]{
-    background-image: linear-gradient(to bottom, #f53b57, #ff3f34);  */
-
-
-/* background-color: #116466; */
-
-
-/* border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 40px;
-}
-
-input[type=submit]:hover{
-  opacity: 30%;
-}
-.form_div{ */
-
-
-/* background-image: url("../img/bg_form.jpg");
-  background-size: contain;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.cols-1{
-  color: #66fcf1;
-}
-.cols-2{
-  color: #66fcf1;
-} */
 
 .form_header h4 {
     padding-top: 20px;
@@ -143,19 +51,6 @@ input[type=submit]:hover{
     }
 }
 
-
-/* @media only screen and (min-width: 768px){
-  .cols-1 {width: 45%;}
-  .cols-2 {width: 45%;}
-}
-@media only screen and (min-width: 600px) {
-  .cols-s-1 {width: 45%;}
-  .cols-s-2 {width: 45%;}
-  .contact_link_img{
-    padding-left: 15px;
-    padding-right: 15px;
-  } */
-
 #feedback-page {
     text-align: center;
 }
@@ -175,18 +70,9 @@ input[type=submit]:hover{
     padding-top: 5vw;
     padding-bottom: 50px;
     width: 30%;
-    /* float: left; */
-    /* left: 50%; */
-    /* position: absolute; */
     margin: 30px auto;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px; */
     border-radius: 7px;
-    /* margin-left: -260px; */
-    /* -moz-border-radius: 7px;
-  -webkit-border-radius: 7px; */
+    
 }
 
 .feedback-input {
@@ -223,44 +109,7 @@ input[type=submit]:hover{
 }
 
 
-/* Icons ---------------------------------- */
 
-
-/* #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 8px 5px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-  background-position: 11px 8px;
-	background-repeat: no-repeat;
-}
-
-#comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
-	background-repeat: no-repeat;
-} */
 
 textarea {
     width: 100%;
@@ -297,22 +146,7 @@ textarea:focus {
 }
 
 
-/*#button-blue:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: #0493bd;
-}*/
 
-
-/* .submit{
-  width: 20%;
-  display: flex;
-  justify-content: center;
-} */
-
-
-/*.submit:hover {
-    color: #3498db;
-}*/
 
 .ease {
     width: 0px;
@@ -329,18 +163,6 @@ textarea:focus {
     width: 100%;
     background-color: white;
 }
-
-
-/* @media only screen and (max-width: 580px) {
-	#form-div{c
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-} */
 
 label.error {
     color: #3498db;
