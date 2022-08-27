@@ -12,17 +12,12 @@
 #practicearea .abcd {}
 
 #practicearea .abcd .left {
-    /* background-image: linear-gradient(to right,#fe9801, #115173); */
-    /* background-image: linear-gradient(to right, #fe9801, #00918e); */
+
     background-image: linear-gradient(to right, #2c3647, #11151c);
 }
 
 #practicearea .abcd .rightcontent,
 .leftcontent {
-    /* background-image: linear-gradient(to right,#115173, #00918e); */
-    /* background-image: none; */
-    /* background-image: linear-gradient(to right,#ff4757, #00918e); */
-    /* background-image: linear-gradient(to right,#ea2027, #ee5a24); */
     background-color: #a52422;
 }
 
